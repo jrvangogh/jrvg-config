@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-ln -s ./bash_profile ~/.bash_profile
-ln -s ./vimrc ~/.vimrc
-ln -s ./sshconfig ~/.ssh/config
-ln -s ./gitconfig ~/.gitconfig
-ln -s ./gitconfig_work_include ~/OmniSpace/.gitconfig_work_include
-ln -s ./matplotlibrc ~/.matplotlib/matplotlibrc
-ln -s ./awsconfig ~/.aws/config
+ln -s "$(pwd)"/bash_profile ~/.bash_profile
+ln -s "$(pwd)"/vimrc ~/.vimrc
+ln -s "$(pwd)"/sshconfig ~/.ssh/config
+ln -s "$(pwd)"/gitconfig ~/.gitconfig
+ln -s "$(pwd)"/gitconfig_work_include ~/OmniSpace/.gitconfig_work_include
+ln -s "$(pwd)"/matplotlibrc ~/.matplotlib/matplotlibrc
+ln -s "$(pwd)"/awsconfig ~/.aws/config

@@ -1,0 +1,6 @@
+# To include/override for work projects
+# All other settings in standard .gitconfig still apply
+
+[user]
+	name = Jacob Ryan van Gogh
+	email = jacob.vangogh@omni.sc

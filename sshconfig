@@ -1,0 +1,6 @@
+Host *
+    # ServerAliveInterval 120
+    IdentityFile ~/.ssh/id_rsa
+    IgnoreUnknown UseKeychain
+    UseKeychain yes
+    AddKeysToAgent yes

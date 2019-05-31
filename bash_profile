@@ -15,10 +15,10 @@ export PATH=/usr/local/bin:$PATH
 # Set architecture flags
 export ARCHFLAGS="-arch x86_64"
 
-# Include homebrew completion
-if [ -f $(brew --prefix)/etc/bash_completion ]; then
-    source $(brew --prefix)/etc/bash_completion
-fi
+# Include homebrew completion (assumes if one file exists, they all do)
+source $(brew --prefix)/etc/bash_completion
+source $(brew --prefix)/etc/bash_completion.d/git-completion.bash
+source $(brew --prefix)/etc/bash_completion.d/git-flow-completion.bash
 
 
 # ---- pyenv ----

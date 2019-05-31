@@ -6,3 +6,4 @@ ln -s ./sshconfig ~/.ssh/config
 ln -s ./gitconfig ~/.gitconfig
 ln -s ./gitconfig_work_include ~/OmniSpace/.gitconfig_work_include
 ln -s ./matplotlibrc ~/.matplotlib/matplotlibrc
+ln -s ./awsconfig ~/.aws/config

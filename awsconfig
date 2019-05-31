@@ -1,0 +1,5 @@
+[default]
+region = us-west-2
+
+[profile mm]
+region=us-west-2

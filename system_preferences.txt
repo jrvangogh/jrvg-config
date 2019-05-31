@@ -1,0 +1,22 @@
+# A collection of configurations I make to system preferences
+
+Disable desktop space rearrangement:
+    Mission Control -> (untick) Automatically rearrange Spaces based on most recent use
+
+Preserve applications that show up on the dock:
+    Dock -> (untick) Show recent applications in Dock
+
+Swap CTRL and CMD because I can't quit Windows, CAPS LOCK as ESC because I hate the touch bar ESC:
+    Keyboard -> Modifier Keys ->
+        Caps Lock Key = Escape
+        Control Key = Command Key
+        Command Key = Control Key
+
+Disable automatic screen brightness adjustment:
+    Displays -> (untick) Automatically adjust brightness
+    Energy Saver -> (untick) Slightly dim the display while on battery power
+
+Color preferences (clearly the most important of the settings):
+    General -> Accent color = purple
+    General -> Highlight color = green
+

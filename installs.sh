@@ -27,3 +27,6 @@ sudo installer -pkg /Library/Developer/CommandLineTools/Packages/macOS_SDK_heade
 # Generate ssh-key
 ssh-keygen -t rsa -b 4096
 
+# Disable trackpad acceleration (default 2). Mouse best disabled via steelSeries Exact Mouse Tool.
+defaults write .GlobalPreferences com.apple.trackpad.scaling -1
+

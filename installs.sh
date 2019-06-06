@@ -30,3 +30,12 @@ ssh-keygen -t rsa -b 4096
 # Disable trackpad acceleration (default 2). Mouse best disabled via steelSeries Exact Mouse Tool.
 defaults write .GlobalPreferences com.apple.trackpad.scaling -1
 
+# Java development kit management
+brew install jenv
+  # add bash_profile lines
+jenv enable-plugin export
+  # restart shell
+brew cask install java
+brew tap AdoptOpenJDK/openjdk
+brew install adoptopenjdk8
+jenv add <things>

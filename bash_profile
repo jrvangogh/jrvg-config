@@ -42,6 +42,13 @@ gpip3(){
 }
 
 
+# ---- jenv ----
+
+# initialization
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
+
+
 # ---- Spark ----
 
 # Set Spark local IP and Home Directory

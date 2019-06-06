@@ -53,7 +53,7 @@ eval "$(jenv init -)"
 
 # Set Spark local IP and Home Directory
 export SPARK_LOCAL_IP=127.0.0.1
-export SPARK_HOME=/usr/local/Cellar/apache-spark/2.4.2/libexec
+export SPARK_HOME=/usr/local/Cellar/apache-spark/2.4.3/libexec
 
 
 # ---- Docker ----

@@ -39,3 +39,6 @@ brew cask install java
 brew tap AdoptOpenJDK/openjdk
 brew install adoptopenjdk8
 jenv add <things>
+
+# Spark
+brew install apache-spark

@@ -42,3 +42,7 @@ jenv add <things>
 
 # Spark
 brew install apache-spark
+
+# SBT
+brew install sbt
+

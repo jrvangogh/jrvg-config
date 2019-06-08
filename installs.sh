@@ -46,3 +46,6 @@ brew install apache-spark
 # SBT
 brew install sbt
 
+# GCC
+brew install gcc
+

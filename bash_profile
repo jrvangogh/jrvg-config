@@ -62,3 +62,12 @@ dockercleanall() {
     docker rm $(docker ps -a -q)
 }
 export -f dockercleanall
+
+
+# ---- GCC ----
+# Warning: alias only kicks in for the command, resulting
+# in default gcc path not changing. 'which gcc' will still
+# return the default, system gcc path.
+alias gcc='gcc-9'
+alias g++='g++-9'
+

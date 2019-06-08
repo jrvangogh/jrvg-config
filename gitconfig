@@ -7,15 +7,30 @@
 	name = Jacob Ryan van Gogh
 	email = jrvangogh@gmail.com
 
+# Only push the current branch. Explicity require setup of upstream branches.
 [push]
 	default = simple
 
 [credential]
 	helper = osxkeychain
 
+# pl - pretty log
+# unstage - shortcut to remove from staging
+# amend - shortcut to ammend last commit
+# pushup - shortcut for pushing a branch that does not track an upstream yet
+# co/cob - checkout shortcuts
+# cm/cam - quick commit shortcuts
 [alias]
 	pl = log --color --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 	unstage = reset HEAD --
+    amend = commit -a --amend
+    pushup = push -u origin HEAD
+
+    co = checkout
+    cob = checkout -b
+
+    cm = commit -m
+    cam = commit -am
 
 [includeIf "gitdir:~/OmniSpace/"]
     path = ~/OmniSpace/.gitconfig_work_include

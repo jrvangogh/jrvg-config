@@ -8,4 +8,5 @@ ln -s "$(pwd)"/gitconfig_work_include ~/OmniSpace/.gitconfig_work_include
 ln -s "$(pwd)"/matplotlibrc ~/.matplotlib/matplotlibrc
 ln -s "$(pwd)"/awsconfig ~/.aws/config
 ln -s "$(pwd)"/jupyter_notebook_config.py ~/.jupyter/jupyter_notebook_config.py
+ln -s "$(pwd)"/ideavimrc ~/.ideavimrc
 

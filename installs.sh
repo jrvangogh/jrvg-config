@@ -30,6 +30,9 @@ ssh-keygen -t rsa -b 4096
 # Disable trackpad acceleration (default 2). Mouse best disabled via steelSeries Exact Mouse Tool.
 defaults write .GlobalPreferences com.apple.trackpad.scaling -1
 
+# Enable repeat key on hold (disable accent character on hold)
+defaults write -g ApplePressAndHoldEnabled -bool false
+
 # Java development kit management
 brew install jenv
   # add bash_profile lines

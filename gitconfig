@@ -21,8 +21,8 @@
 # co/cob - checkout shortcuts
 # cm/cam - quick commit shortcuts
 [alias]
-	pl = log --color --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-	unstage = reset HEAD --
+    pl = log --color --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    unstage = reset HEAD --
     amend = commit -a --amend
     pushup = push -u origin HEAD
 

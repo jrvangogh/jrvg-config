@@ -20,3 +20,10 @@ Color preferences (clearly the most important of the settings):
     General -> Accent color = purple
     General -> Highlight color = green
 
+Intellij Settings:
+    Install vim plugin and change CTRL + R/D to be Intellij shortcuts
+    In Registry (CTRL + SHIFT + A to search actions), check box for
+        ide.supress.double.click.handler
+        to disable double press of SHIFT bringing up search everywhere
+    Add new keyboard shortcut for search everywhere (CTRL + SHIFT + S)
+

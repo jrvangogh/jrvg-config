@@ -15,11 +15,11 @@
 	helper = osxkeychain
 
 # pl - pretty log
-# unstage - shortcut to remove from staging
+# unstage - remove from staging (without altering)
 # amend - shortcut to ammend last commit
 # pushup - shortcut for pushing a branch that does not track an upstream yet
-# co/cob - checkout shortcuts
-# cm/cam - quick commit shortcuts
+# co/cob - shortcuts for checking branches out
+# cm/cam - shortcuts for quick committing
 [alias]
     pl = log --color --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
     unstage = reset HEAD --

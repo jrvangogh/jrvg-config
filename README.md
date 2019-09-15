@@ -16,5 +16,5 @@ This script shouldn't necessarily be run straight-up, but lists steps that shoul
 ## Other setup notes
 Current fix to successfully install Python versions with pyenv:
 
-SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk MACOSX_DEPLOYMENT_TARGET=10.14 pyenv install <version>
+SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk MACOSX_DEPLOYMENT_TARGET=10.14 pyenv install {python-version}
 

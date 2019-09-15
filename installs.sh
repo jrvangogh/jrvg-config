@@ -18,7 +18,7 @@ brew install git
 brew install bash-completion
 curl https://raw.githubusercontent.com/bobthecow/git-flow-completion/master/git-flow-completion.bash >> /usr/local/etc/bash_completion.d/git-flow-completion.bash
 
-# Python environment management
+# Python environment management (set default virtualenv with pyenv global <virtualenv-name>)
 brew install pyenv
 brew install pyenv-virtualenv
 brew install readline xz

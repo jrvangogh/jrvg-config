@@ -20,5 +20,5 @@ SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Dev
 
 Adding a virtualenv to Jupyter: (from inside desired virtualenv)
 
-ipython kernel install --user --name=<virtualenv-name>
+ipython kernel install --user --name={virtualenv-name}
 

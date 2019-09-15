@@ -12,3 +12,9 @@ symlink_config_files.sh should be run from the git repo's directory
 In order to help remember typical installations, I've documented things in installs.sh. 
 This script shouldn't necessarily be run straight-up, but lists steps that should be taken.
 
+
+## Other setup notes
+Current fix to successfully install Python versions with pyenv:
+
+SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk MACOSX_DEPLOYMENT_TARGET=10.14 pyenv install <version>
+

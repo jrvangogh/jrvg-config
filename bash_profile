@@ -71,3 +71,7 @@ export -f dockercleanall
 alias gcc='gcc-9'
 alias g++='g++-9'
 
+# ---- Lyft ----
+export PATH="$HOME/bin:$PATH"
+eval "$(/lyft/brew/bin/aactivator init)"
+

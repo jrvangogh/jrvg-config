@@ -4,3 +4,6 @@
 [user]
 	name = Jacob Ryan van Gogh
 	email = jvangogh@lyft.com
+
+[init]
+    templateDir = /lyft/.git-template

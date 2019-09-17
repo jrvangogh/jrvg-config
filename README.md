@@ -18,3 +18,7 @@ Current fix to successfully install Python versions with pyenv:
 
 SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk MACOSX_DEPLOYMENT_TARGET=10.14 pyenv install {python-version}
 
+Adding a virtualenv to Jupyter: (from inside desired virtualenv)
+
+ipython kernel install --user --name={virtualenv-name}
+

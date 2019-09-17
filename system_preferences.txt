@@ -12,6 +12,10 @@ Swap CTRL and CMD because I can't quit Windows, CAPS LOCK as ESC because I hate 
         Control Key = Command Key
         Command Key = Control Key
 
+Disable "Swipe between pages" because I accidentally activate this in web browsers
+and haven't found benefit in its actual use:
+    Trackpad -> More Gestures -> (untick) Swipe between pages
+
 Disable automatic screen brightness adjustment:
     Displays -> (untick) Automatically adjust brightness
     Energy Saver -> (untick) Slightly dim the display while on battery power

@@ -19,6 +19,7 @@ brew install bash-completion
 curl https://raw.githubusercontent.com/bobthecow/git-flow-completion/master/git-flow-completion.bash >> /usr/local/etc/bash_completion.d/git-flow-completion.bash
 
 # Python environment management (set default virtualenv with pyenv global <virtualenv-name>)
+# Installing: SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk MACOSX_DEPLOYMENT_TARGET=10.14 pyenv install <version>
 brew install pyenv
 brew install pyenv-virtualenv
 brew install readline xz

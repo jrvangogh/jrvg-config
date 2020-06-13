@@ -42,6 +42,12 @@ gpip3(){
 }
 
 
+# ---- golang ----
+
+export GOPATH=~/LyftSpace
+export PATH=$GOPATH/bin:$PATH
+
+
 # ---- jenv ----
 
 # initialization

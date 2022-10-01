@@ -1,0 +1,23 @@
+# MacOS
+.DS_Store
+
+# JetBrains
+.idea/
+
+# Logs
+log/
+*.log
+
+# Data Files
+*.csv
+*.parquet
+*.pickle
+*.zip
+
+# Python
+.ipynb_checkpoints/
+__pycache__/
+
+# Random Tests
+randomthink/
+

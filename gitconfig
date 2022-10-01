@@ -1,0 +1,44 @@
+# This user defaults to personal profile. Configured to switch to work profile
+# via includeIf. All folders which are children of ~/src/ will include
+# ~/src/.gitconfig_work_include. Thus, this file needs to be configured
+# properly as well.
+
+[user]
+	name = Jacob Ryan van Gogh
+	email = jrvangogh@gmail.com
+
+# Only push the current branch. Explicity require setup of upstream branches.
+[push]
+	default = simple
+
+[credential]
+	helper = osxkeychain
+
+# Global .gitignore
+[core]
+    excludesfile = ~/.global_gitignore
+
+[init]
+    defaultBranch = main
+
+# pl - pretty log
+# unstage - remove from staging (without altering)
+# amend - shortcut to ammend last commit
+# pushup - shortcut for pushing a branch that does not track an upstream yet
+# co/cob - shortcuts for checking branches out
+# cm/cam - shortcuts for quick committing
+[alias]
+    pl = log --color --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    unstage = reset HEAD --
+    amend = commit -a --amend
+    pushup = push -u origin HEAD
+
+    co = checkout
+    cob = checkout -b
+
+    cm = commit -m
+    cam = commit -am
+
+[includeIf "gitdir:~/src/"]
+    path = ~/LyftSpace/.gitconfig_work_include
+

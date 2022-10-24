@@ -48,9 +48,3 @@ dockercleanall() {
 alias gcc='gcc-9'
 alias g++='g++-9'
 
-
-# ---- Lyft ----
-export PATH="$HOME/bin:$PATH"
-export PATH=$PATH:/Users/jvangogh/.lyftkube-bin
-export PATH=$PATH:/Users/jvangogh/.spcli/bin
-

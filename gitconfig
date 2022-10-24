@@ -40,5 +40,5 @@
     cam = commit -am
 
 [includeIf "gitdir:~/src/"]
-    path = ~/LyftSpace/.gitconfig_work_include
+    path = ~/src/.gitconfig_work_include
 

@@ -2,11 +2,5 @@
 # All other settings in standard .gitconfig still apply
 
 [user]
-	name = Jacob Ryan van Gogh
-	email = jvangogh@lyft.com
-
-[init]
-    templateDir = /lyft/.git-template
-
-[url "ssh://git@github.com/"]
-	insteadOf = https://github.com/
+	name = Jacob van Gogh
+	email = jacob@adept.ai

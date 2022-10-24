@@ -96,14 +96,6 @@
 ### Python
 - `brew install pyenv pyenv-virtualenv`
 
-### GoLang
-- `brew install go@1.17 && brew link go@1.17` (Lyft)
-
-### Java
-- `brew tap AdoptOpenJDK/openjdk`
-- `brew install --cask adoptopenjdk11`
-- `brew install maven` (Lyft)
-
 ### Spark
 - `brew install apache-spark`
 
@@ -111,10 +103,6 @@
 - `brew install gcc`
 - `brew install libomp`
 - `brew install cmake`
-
-### AWS (Lyft)
-- `brew install aws-okta`
-- `brew install awscli`
 
 ## Config Files
 - Add SSH key to GitHub account

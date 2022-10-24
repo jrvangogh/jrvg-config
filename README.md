@@ -82,7 +82,7 @@
   - `sudo vim /etc/pam.d/sudo`
   - Add `auth sufficient pam_tid.so` under the first line
 - Homebrew
-  - `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+  - `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
   - `brew update && brew upgrade`
 - Non-system Git
   - `brew install git`

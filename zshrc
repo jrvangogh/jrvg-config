@@ -1,5 +1,6 @@
 # ---- General ----
 # Ensure user-installed binaries take precedence
+export PATH=/opt/homebrew/opt/llvm/bin:$PATH
 export PATH=/usr/local/bin:$PATH
 
 # Homebrew

@@ -107,6 +107,7 @@
 
 ### Build Tools
 - `brew install gcc`
+- `brew install llvm`
 - `brew install libomp`
 - `brew install cmake`
 

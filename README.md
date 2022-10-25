@@ -52,6 +52,12 @@
   - Preferences -> Edit & View
     - Default font - > Size: 14
     - Paste Options: Default paste option: Keep Text Only
+- Visual Studio Code
+  - `brew install --cask visual-studio-code`
+  - Extensions
+    - Vim
+    - Python
+    - rust-analyzer
 - Spotify
   - Log in
 - PyCharm CE (Apple Silicon version)

@@ -36,6 +36,7 @@
     - Remove other search engines except for Wikipedia
     - Search Field Display: Show as Button
   - Clean up Start Page
+  - Install [Solarized](https://themes.vivaldi.net/themes/q2Vv9V9JKL3) theme
 - iTerm2
   - Keys -> Hotkeys -> Create a Dedicated Hotkey Window
   - Profiles -> Hotkey Window

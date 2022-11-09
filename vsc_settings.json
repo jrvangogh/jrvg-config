@@ -1,4 +1,23 @@
 {
+    "editor.fontSize": 14,
+    "vim.vimrc.enable": true,
+    "launch": {
+        "configurations": [
+            {
+                "name": "Python: Current File",
+                "type": "python",
+                "request": "launch",
+                "program": "${file}",
+                "console": "integratedTerminal",
+                "cwd": "${workspaceFolder}",
+                "env": {"PYTHONPATH": "${workspaceFolder}${pathSeparator}${env:PYTHONPATH}"}
+            }
+        ],
+        "compounds": []
+    },
+    "git.mergeEditor": true,
+    "merge-conflict.codeLens.enabled": false,
+    "git.untrackedChanges": "separate",
     "workbench.colorTheme": "Solarized Light",
-    "editor.fontSize": 14
+    "editor.fontFamily": "Menlo"
 }

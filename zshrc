@@ -14,6 +14,26 @@ compinit
 # Visual Studio Code
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
+# Directories
+hash -d meg=/Users/jacobvangogh/src/MEGATRON-LM
+hash -d jc=/Users/jacobvangogh/JayArr/jrvg-config
+
+# Basic Aliases
+alias c="clear"
+alias ll="ls -l"
+alias la="ls -la"
+
+
+plsync() {
+    UN="${3:-jacob}"
+    rsync -azP "$UN@phx:/mnt/weka/$UN/$1" "/Users/jacobvangogh/$2"
+}
+
+lpsync() {
+    UN="${3:-jacob}"
+    rsync -azP "/Users/jacobvangogh/$1" "$UN@phx:/mnt/weka/$UN/$2"
+}
+
 
 # ---- pyenv ----
 # pyenv and virtualenv initialization
@@ -25,14 +45,6 @@ export PIP_REQUIRE_VIRTUALENV=true
 eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
-
-gpip2(){
-    PIP_REQUIRE_VIRTUALENV="" pip2 "$@"
-}
-
-gpip3(){
-    PIP_REQUIRE_VIRTUALENV="" pip3 "$@"
-}
 
 
 # ---- Docker ----

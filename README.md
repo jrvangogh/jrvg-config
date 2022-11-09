@@ -44,6 +44,7 @@
     - Transparency: 15
     - Columns: 120
   - General -> Closing -> Confirm "Quit iTerm2": false
+  - Profiles -> Text -> Font: Menlo (all profiles)
 - OneNote
   - Sign in to Apple store to install
   - Log in to Microsoft account

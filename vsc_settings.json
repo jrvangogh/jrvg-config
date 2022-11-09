@@ -19,5 +19,7 @@
     "merge-conflict.codeLens.enabled": false,
     "git.untrackedChanges": "separate",
     "workbench.colorTheme": "Solarized Light",
-    "editor.fontFamily": "Menlo"
+    "editor.fontFamily": "Menlo",
+    "terminal.integrated.fontFamily": "Menlo",
+    "workbench.iconTheme": "material-icon-theme",
 }

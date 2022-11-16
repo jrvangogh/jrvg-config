@@ -22,4 +22,12 @@
     "editor.fontFamily": "Menlo",
     "terminal.integrated.fontFamily": "Menlo",
     "workbench.iconTheme": "material-icon-theme",
+    "redhat.telemetry.enabled": false,
+    "jupyter.askForKernelRestart": false,
+    "search.exclude": {
+        "**/.ipynb_checkpoints": true,
+    },
+    "files.watcherExclude": {
+        "**/.ipynb_checkpoints": true,
+    }
 }

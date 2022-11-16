@@ -14,9 +14,13 @@ compinit
 # Visual Studio Code
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
+# Color outputs by default
+autoload -U colors && colors
+export CLICOLOR=1
+
 # Directories
-hash -d meg=/Users/jacobvangogh/src/MEGATRON-LM
-hash -d jc=/Users/jacobvangogh/JayArr/jrvg-config
+hash -d mega=/Users/jacobvangogh/src/MEGATRON-LM
+hash -d conf=/Users/jacobvangogh/JayArr/jrvg-config
 
 # Basic Aliases
 alias c="clear"
@@ -24,6 +28,17 @@ alias ll="ls -l"
 alias la="ls -la"
 
 
+f() {
+    NC=$fg[green]
+    VC=$fg[magenta]
+    PV=$(pyenv version-name)
+    GB=$(git branch 2> /dev/null | sed -n -e 's/^\* \(.*\)/\1/p')
+    echo "    ${NC}Python Env: ${VC}$PV"
+    echo "    ${NC}Git Branch: ${VC}$GB"
+}
+
+
+# ---- remote ----
 plsync() {
     UN="${3:-jacob}"
     rsync -azP "$UN@phx:/mnt/weka/$UN/$1" "/Users/jacobvangogh/$2"
@@ -45,6 +60,7 @@ export PIP_REQUIRE_VIRTUALENV=true
 eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
+export PYENV_VIRTUALENV_DISABLE_PROMPT='1'
 
 
 # ---- Docker ----
@@ -60,4 +76,3 @@ dockercleanall() {
 # return the default, system gcc path.
 alias gcc='gcc-9'
 alias g++='g++-9'
-

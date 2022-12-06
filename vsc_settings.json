@@ -1,6 +1,12 @@
 {
     "editor.fontSize": 14,
     "vim.vimrc.enable": true,
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": ["$"],
+            "after": ["g", "_"]
+        }
+    ],
     "launch": {
         "configurations": [
             {
@@ -29,5 +35,6 @@
     },
     "files.watcherExclude": {
         "**/.ipynb_checkpoints": true,
-    }
+    },
+    "python.defaultInterpreterPath": "/Users/jacobvangogh/.pyenv/versions/glob/bin/python"
 }

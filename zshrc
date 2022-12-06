@@ -31,10 +31,10 @@ alias la="ls -la"
 f() {
     NC=$fg[green]
     VC=$fg[magenta]
-    PV=$(pyenv version-name)
     GB=$(git branch 2> /dev/null | sed -n -e 's/^\* \(.*\)/\1/p')
-    echo "    ${NC}Python Env: ${VC}$PV"
+    PV=$(pyenv version-name)
     echo "    ${NC}Git Branch: ${VC}$GB"
+    echo "    ${NC}Python Env: ${VC}$PV"
 }
 
 

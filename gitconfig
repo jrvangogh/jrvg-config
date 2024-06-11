@@ -21,14 +21,16 @@
 [init]
     defaultBranch = main
 
-# pl - pretty log
+# pl - pretty log last 5 commits
+# pll - pretty log
 # unstage - remove from staging (without altering)
 # amend - shortcut to ammend last commit
 # pushup - shortcut for pushing a branch that does not track an upstream yet
 # co/cob - shortcuts for checking branches out
-# cm/cam - shortcuts for quick committing
+# cm/cam/camnv - shortcuts for quick committing
 [alias]
-    pl = log --color --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    pll = log --color --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    pl = pll -n 5
     unstage = reset HEAD --
     amend = commit -a --amend
     pushup = push -u origin HEAD
@@ -38,7 +40,23 @@
 
     cm = commit -m
     cam = commit -am
+    camnv = commit --no-verify -am
 
 [includeIf "gitdir:~/src/"]
     path = ~/src/.gitconfig_work_include
 
+[safe]
+	directory = /__w/adept-tsm/adept-tsm
+	directory = /__w/adept-tsm/adept-tsm
+	directory = /__w/adept-tsm/adept-tsm
+	directory = /__w/adept-tsm/adept-tsm
+	directory = /__w/adept-tsm/adept-tsm
+	directory = /__w/adept-tsm/adept-tsm
+	directory = /__w/adept-tsm/adept-tsm
+	directory = /__w/adept-tsm/adept-tsm
+	directory = /__w/adept-tsm/adept-tsm
+	directory = /__w/adept-tsm/adept-tsm
+	directory = /__w/adept-tsm/adept-tsm
+	directory = /__w/adept-tsm/adept-tsm
+	directory = /__w/adept-tsm/adept-tsm
+	directory = /__w/adept-tsm/adept-tsm

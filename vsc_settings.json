@@ -36,5 +36,35 @@
     "files.watcherExclude": {
         "**/.ipynb_checkpoints": true,
     },
-    "python.defaultInterpreterPath": "/Users/jacobvangogh/.pyenv/versions/glob/bin/python"
+    "python.defaultInterpreterPath": "/Users/jacobvangogh/.pyenv/versions/glob/bin/python",
+    "editor.inlineSuggest.enabled": true,
+    "files.autoSave": "afterDelay",
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "rust": false,
+        "yaml": true
+    },
+    "[python]": {
+        "editor.formatOnType": true,
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "editor.largeFileOptimizations": false,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "python.formatting.provider": "none",
+    "github.copilot.advanced": {
+     
+    },
+    "vs-kubernetes": {
+        "vs-kubernetes.crd-code-completion": "enabled"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.detectIndentation": false,
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prisma.showPrismaDataPlatformNotification": false,
+    "github.copilot.editor.enableAutoCompletions": true,
 }

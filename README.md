@@ -29,6 +29,7 @@
   - Displays have separate Spaces: true
 
 ## Apps
+- Rectangle Mac
 - Vivaldi
   - Go to LastPass to get Vivaldi Encryption key
   - Log in to Vivaldi account and enable sync

@@ -6,25 +6,24 @@
 - Trackpad
   - Tracking speed: fastest
   - More Gestures -> Swipe between pages: false
-- Keyboard
-  - Modifier Keys
-    - Caps Lock -> Escape
-    - Control -> Command
-    - Command -> Control
-  - Shortcuts
-    - Show Spotlight search: ^Space
-  - Text
-    - Add period with double-space: false
+- Keyboard: Keyboard Shortcuts...
+    - Modifier Keys
+      - Caps Lock -> Escape
+      - Control -> Command
+      - Command -> Control
+    - Spotlight
+      - Show Spotlight search: ^Space
 - Displays
   - Automatically adjust brightness: false
-- Battery: Battery
-  - Turn display off after: 5 min
-  - Slightly dim the display while on battery power: false
-- Dock & Menu Bar
+- Battery: Options...
+  - Slightly dim the display on battery: false
+- Lock Screen
+  - Turn display off on battery when inactive: for 5 min
+- Desktop & Dock
   - Automatically hide and show the Dock: true
-  - Show recent applications in Dock: false
-- Mission Control
+  - Show suggested and recent apps in Dock: false
   - Automatically rearrange Spaces based on most recent use: false
+  - Displays have separate Spaces: true
 
 ## Apps
 - Vivaldi
@@ -45,15 +44,6 @@
     - Columns: 120
   - General -> Closing -> Confirm "Quit iTerm2": false
   - Profiles -> Text -> Font: Menlo (all profiles)
-- OneNote
-  - Sign in to Apple store to install
-  - Log in to Microsoft account
-  - Preferences -> Spelling
-    - Automatically correct spelling and formatting as you type: false
-    - Capitalize the first letter of sentences: false
-  - Preferences -> Edit & View
-    - Default font - > Size: 14
-    - Paste Options: Default paste option: Keep Text Only
 - Visual Studio Code
   - `brew install --cask visual-studio-code`
   - Extensions
@@ -62,18 +52,6 @@
     - rust-analyzer
 - Spotify
   - Log in
-- PyCharm CE (Apple Silicon version)
-  - Preferences -> Editor -> Code Style -> General
-    - Hard wrap at: 120
-      - Wrap on typing: false
-    - Visual Guides: 120
-  - Plugins
-    - IdeaVim
-    - Requirements
-  - File -> New Projects Setup -> Preferences for New Projects -> Python Interpreter: Set to glob
-- GoLand (Apple Silicon version)
-  - Plugins
-    - IdeaVim
 - Send to Kindle
 
 ### Command Line Settings

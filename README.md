@@ -6,7 +6,10 @@
 - Trackpad
   - Tracking speed: fastest
   - More Gestures -> Swipe between pages: false
-- Keyboard: Keyboard Shortcuts...
+- Keyboard
+  - Key repeat rate: fastest
+  - Delay until repeat: shortest
+  - Keyboard Shortcuts...
     - Modifier Keys
       - Caps Lock -> Escape
       - Control -> Command

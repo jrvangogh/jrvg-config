@@ -44,19 +44,3 @@
 
 [includeIf "gitdir:~/src/"]
     path = ~/src/.gitconfig_work_include
-
-[safe]
-	directory = /__w/adept-tsm/adept-tsm
-	directory = /__w/adept-tsm/adept-tsm
-	directory = /__w/adept-tsm/adept-tsm
-	directory = /__w/adept-tsm/adept-tsm
-	directory = /__w/adept-tsm/adept-tsm
-	directory = /__w/adept-tsm/adept-tsm
-	directory = /__w/adept-tsm/adept-tsm
-	directory = /__w/adept-tsm/adept-tsm
-	directory = /__w/adept-tsm/adept-tsm
-	directory = /__w/adept-tsm/adept-tsm
-	directory = /__w/adept-tsm/adept-tsm
-	directory = /__w/adept-tsm/adept-tsm
-	directory = /__w/adept-tsm/adept-tsm
-	directory = /__w/adept-tsm/adept-tsm

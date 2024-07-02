@@ -19,7 +19,6 @@ autoload -U colors && colors
 export CLICOLOR=1
 
 # Directories
-hash -d mega=/Users/jacobvangogh/src/MEGATRON-LM
 hash -d conf=/Users/jacobvangogh/JayArr/jrvg-config
 
 # Basic Aliases
@@ -38,18 +37,6 @@ f() {
     PV=$(pyenv version-name)
     echo "    ${NC}Git Branch: ${VC}$GB"
     echo "    ${NC}Python Env: ${VC}$PV"
-}
-
-
-# ---- remote ----
-plsync() {
-    UN="${3:-jacob}"
-    rsync -azP "$UN@phx:/mnt/weka/$UN/$1" "/Users/jacobvangogh/$2"
-}
-
-lpsync() {
-    UN="${3:-jacob}"
-    rsync -azP "/Users/jacobvangogh/$1" "$UN@phx:/mnt/weka/$UN/$2"
 }
 
 
@@ -72,21 +59,6 @@ export PYENV_VIRTUALENV_DISABLE_PROMPT='1'
 
 # startup
 export PYTHONSTARTUP="/Users/jacobvangogh/JayArr/jrvg-utils/startup.py"
-
-
-# ---- Docker ----
-dockercleanall() {
-    docker stop $(docker ps -a -q)
-    docker rm $(docker ps -a -q)
-}
-
-
-# ---- GCC ----
-# Warning: alias only kicks in for the command, resulting
-# in default gcc path not changing. 'which gcc' will still
-# return the default, system gcc path.
-alias gcc='gcc-9'
-alias g++='g++-9'
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

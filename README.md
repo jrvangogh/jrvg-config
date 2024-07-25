@@ -73,8 +73,8 @@
 - (in ~/JayArr/jrvg-config) `bash symlink_config_files.sh`
 
 ## Set Up Python
-- `pyenv install 3.9.13`
-- `pyenv virtualenv 3.9.13 glob`
+- `pyenv install 3.12.4`
+- `pyenv virtualenv 3.12.4 glob`
 - `pyenv global glob`
 - `pyenv activate glob`
 - `pip install notebook`

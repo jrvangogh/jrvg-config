@@ -28,8 +28,59 @@
   - Automatically rearrange Spaces based on most recent use: false
   - Displays have separate Spaces: true
 
+## Development
+- Make ~/JayArr and ~/src
+
+### Base Software
+- Enable Touch ID for sudo
+  - `sudo vim /etc/pam.d/sudo`
+  - Add `auth sufficient pam_tid.so` under the first line
+- Homebrew
+  - `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+  - `brew update && brew upgrade`
+- Non-system Git
+  - `brew install git`
+- Pre-Commit
+  - `brew install pre-commit`
+- Generate SSH key
+  - `ssh-keygen -t rsa -b 4096`
+- iterm2
+  - `brew install --cask iterm2`
+- Rectangle
+  - `brew install --cask rectangle`
+
+### Command Line Settings
+- Disable trackpad acceleration (default 2)
+  - `defaults write .GlobalPreferences com.apple.trackpad.scaling -1`
+- Enable repeat key on hold (disable accent character on hold)
+  - `defaults write -g ApplePressAndHoldEnabled -bool false`
+
+### Python
+- `brew install pyenv pyenv-virtualenv`
+
+### Spark
+- `brew install apache-spark`
+
+### Build Tools
+- `brew install gcc`
+- `brew install llvm`
+- `brew install libomp`
+- `brew install cmake`
+
+## Config Files
+- Add SSH key to GitHub account
+- (in ~/JayArr) `git clone git@github.com:jrvangogh/jrvg-config.git`
+- (in ~/JayArr/jrvg-config) `bash symlink_config_files.sh`
+
+## Set Up Python
+- `pyenv install 3.9.13`
+- `pyenv virtualenv 3.9.13 glob`
+- `pyenv global glob`
+- `pyenv activate glob`
+- `pip install notebook`
+- `ipython kernel install --user --name=glob`
+
 ## Apps
-- Rectangle Mac
 - Vivaldi
   - Go to LastPass to get Vivaldi Encryption key
   - Log in to Vivaldi account and enable sync
@@ -57,54 +108,3 @@
 - Spotify
   - Log in
 - Send to Kindle
-
-### Command Line Settings
-- Disable trackpad acceleration (default 2)
-  - `defaults write .GlobalPreferences com.apple.trackpad.scaling -1`
-- Enable repeat key on hold (disable accent character on hold)
-  - `defaults write -g ApplePressAndHoldEnabled -bool false`
-
-## Development
-- Make ~/JayArr and ~/src
-
-### Base Software
-- Enable Touch ID for sudo
-  - `sudo vim /etc/pam.d/sudo`
-  - Add `auth sufficient pam_tid.so` under the first line
-- Homebrew
-  - `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-  - `brew update && brew upgrade`
-- Non-system Git
-  - `brew install git`
-- Pre-Commit
-  - `brew install pre-commit`
-- Generate SSH key
-  - `ssh-keygen -t rsa -b 4096`
-- Rectangle
-  - `brew install --cask rectangle`
-
-### Python
-- `brew install pyenv pyenv-virtualenv`
-
-### Spark
-- `brew install apache-spark`
-
-### Build Tools
-- `brew install gcc`
-- `brew install llvm`
-- `brew install libomp`
-- `brew install cmake`
-
-## Config Files
-- Add SSH key to GitHub account
-- (in ~/JayArr) `git clone git@github.com:jrvangogh/jrvg-config.git`
-- (in ~/JayArr/jrvg-config) `bash symlink_config_files.sh`
-
-## Set Up Python
-- `pyenv install 3.9.13`
-- `pyenv virtualenv 3.9.13 glob`
-- `pyenv global glob`
-- `pyenv activate glob`
-- `pip install notebook`
-- `ipython kernel install --user --name=glob`
-

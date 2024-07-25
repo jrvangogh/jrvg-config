@@ -1,8 +1,3 @@
-# This user defaults to personal profile. Configured to switch to work profile
-# via includeIf. All folders which are children of ~/src/ will include
-# ~/src/.gitconfig_work_include. Thus, this file needs to be configured
-# properly as well.
-
 [user]
 	name = Jacob Ryan van Gogh
 	email = jrvangogh@gmail.com
@@ -41,6 +36,3 @@
     cm = commit -m
     cam = commit -am
     camnv = commit --no-verify -am
-
-[includeIf "gitdir:~/src/"]
-    path = ~/src/.gitconfig_work_include

@@ -1,6 +1,0 @@
-# To include/override for work projects
-# All other settings in standard .gitconfig still apply
-
-[user]
-	name = Jacob van Gogh
-	email = jacob@adept.ai
